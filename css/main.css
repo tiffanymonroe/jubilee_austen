@@ -55,6 +55,11 @@ nav ul li a {
     padding-left: 80px;
 }
 
+nav ul li a:hover {
+  font-weight: bold;
+  color: #2b2b2b;
+}
+
 header h2 {
     width: 83%;
     clear: both;
@@ -128,6 +133,8 @@ header h2 span {
 }
 
 #contact img#contact-img {
+    width: 80%;
+    height: auto;
     margin-left: 25px;
     border: 12px solid #ffffff;
 }
@@ -193,6 +200,15 @@ header h2 span {
     padding-right: 3em;
   }
 
+  /******* CONTACT *******/
+  #contact .full-width {
+    clear: both;
+  }
+
+  #contact ul li img {
+    font-size: 28px;
+    padding-right: 36px;
+  }
 }
 
 @media (max-width: 900px) {
@@ -204,6 +220,60 @@ header h2 span {
   nav ul li a {
       padding-left: 40px;
   }
+
+  #contact .full-width {
+      padding: 110px 0;
+  }
+
+  #contact img#contact-img {
+      width: 80%;
+      height: auto;
+      margin-left: 25px;
+      border: 12px solid #ffffff;
+  }
+
+  #contact h2, #contact #email-header, #contact #socialmedia-header, #contact ul {
+      padding-left: 115px;
+  }
+  #contact #envelope {
+      padding: 0 10px 0 115px;
+  }
+
+  #contact h2 {
+      font-family: 'Lora', serif;
+      font-size: 36px;
+      line-height: 44px;
+  }
+  #contact #email-header{
+      font-size: 32px;
+      font-weight: 400;
+      line-height: 44px;
+      margin: -30px 0 5px 0;
+  }
+  #contact #socialmedia-header {
+      font-weight: bold;
+      font-size: 29px;
+      line-height: 44px;
+      margin: 40px 0 0 0;
+  }
+  #contact a {
+      text-decoration: none;
+      color: #c49075;
+      font-weight: bold;
+      font-size: 28px;
+  }
+
+  #contact ul {
+      list-style: none;
+  }
+  #contact ul li {
+       display: inline-block;
+  }
+  #contact ul img {
+      font-size: 32px;
+      padding-right: 48px;
+  }
+
 }
 
 @media (max-width: 780px) {
