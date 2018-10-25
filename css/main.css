@@ -179,6 +179,19 @@ header h2 span {
   nav ul li a {
       padding-left: 60px;
   }
+  /* ABOUT */
+  #about h2 {
+    font-family: 'Lora', serif;
+  }
+
+  #about p {
+    font-size: 18px;
+    color: #7f7f7f;
+    line-height: 30px;
+    padding-left: 3em;
+    padding-right: 3em;
+  }
+  
 }
 
 @media (max-width: 900px) {
@@ -220,6 +233,7 @@ header h2 span {
 }
 
 @media (max-width: 490px) {
+  /* HEADER */
   nav ul li a {
     padding-left: 50%;
   }
